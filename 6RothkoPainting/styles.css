@@ -1,10 +1,13 @@
-/* Efecto de sombra con desplazamiento horizontal de 2px, desplazamiento vertical de 4px, sin desenfoque, sin dispersión, color negro y sombra exterior
+/* Efecto de sombra con desplazamiento horizontal de 2px, desplazamiento vertical de 4px, sin desenfoque,
+sin dispersión, color negro y sombra exterior
 box-shadow: 2px 4px black;
 
-Efecto de sombra con desplazamiento horizontal de -3px, desplazamiento vertical de 3px, desenfoque de 5px, sin dispersión, color rojo y sombra interior
+Efecto de sombra con desplazamiento horizontal de -3px, desplazamiento vertical de 3px, desenfoque de 5px,
+sin dispersión, color rojo y sombra interior
 box-shadow: -3px 3px 5px red inset;
 
-Efecto de sombra con desplazamiento horizontal de 0, desplazamiento vertical de 10px, desenfoque de 8px, dispersión de 2px, color azul y sombra exterior
+Efecto de sombra con desplazamiento horizontal de 0, desplazamiento vertical de 10px, desenfoque de 8px,
+dispersión de 2px, color azul y sombra exterior
 box-shadow: 0 10px 8px 2px blue; */
 
 .canvas {
