@@ -1,0 +1,40 @@
+#image{
+    max-width: 100%;
+    height: auto;
+}
+#img-div{
+    background-color: #181a1b;
+    width: 100%;
+    height: 100%;
+    padding: 10px 0;
+    margin: 0;
+    display: block;
+}
+main{
+    text-align: center;
+}
+body{
+    background-color: #222426;
+}
+p, li, h1, h2,figcaption{
+    color: #c8c3bc;
+}
+img{
+    margin: 10px auto;
+}
+ul{
+    list-style-position: inside;
+}
+li{
+    text-align: center;    
+}
+section span, .extra{
+    font-weight: bold;
+}
+.extra{
+    font-size: 20px;
+}
+a:visited{
+    color: rgb(156, 147, 134);
+}
+
