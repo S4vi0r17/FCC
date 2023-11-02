@@ -1,32 +1,156 @@
-label {
-    display: block;
-    margin: 1rem 0;
+html {
+  box-sizing: border-box;
+  overflow: hidden;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+fieldset {
+  margin-bottom: 20px;
+  border: none;
+}
+
+body {
+  background-image: linear-gradient(
+      115deg,
+      rgba(58, 58, 158, 0.8),
+      rgba(136, 136, 206, 0.7)
+    ),
+    url("./img/bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: wheat;
+}
+
+form {
+  width: 40vw;
+  margin: 0 auto;
+  background-color: rgba(27, 27, 50, 0.8);
+  padding: 20px;
+  border-radius: 30px;
 }
 
 h1,
 p {
-    margin: 1em auto;
-    text-align: center;
-}
-
-form {
-    width: 60vw;
-    max-width: 500px;
-    min-width: 300px;
-    margin: 0 auto;
-    padding-bottom: 2em;
+  text-align: center;
+  margin-top: 0;
+  color: white;
 }
 
 input,
-textarea,
-select {
-    margin: 10px 0 0 0;
-    width: 100%;
-    min-height: 2em;
+label {
+  display: block;
+  margin: 0;
 }
 
-.inline {
-    width: unset;
-    margin: 0 0.5em 0 0;
-    vertical-align: middle;
+legend,
+.destination label {
+  font-size: 20px;
+}
+
+input:focus {
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.datos {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px 30px;
+  justify-content: space-between;
+}
+
+#name-label {
+  grid-column: 1 / 3;
+}
+
+#email-label {
+  grid-column: 1 / 2;
+}
+
+#number-label {
+  grid-column: 2 / 3;
+}
+
+.datos label {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.datos input {
+  padding: 10px;
+  border-radius: 10px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+/* Segundo fieldset */
+
+select {
+  display: block;
+  width: 100%;
+}
+
+.destination {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+}
+
+/* Tercer fieldset */
+
+.preference label {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+  gap: 10px;
+}
+
+.preference label:last-of-type {
+  margin-bottom: 0;
+}
+
+/* Cuarto fieldset */
+.additional-services label {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Ultimo fieldset */
+
+.additional-comments textarea {
+  width: 100%;
+  padding: 10px;
+}
+
+/* button */
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.button input {
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  background-color: #37af65;
+  color: white;
 }
