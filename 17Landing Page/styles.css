@@ -1,11 +1,21 @@
 :root {
-  --main-color: #444547;
+  --main-color: #664968;
+}
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }
 body {
   margin: 0;
+  background-color: #e1fcfe;
 }
 img {
   width: 100px;
+  margin-left: 50px;
 }
 #header {
   display: flex;
@@ -13,36 +23,106 @@ img {
   align-items: center;
   background-color: var(--main-color);
   color: white;
-  padding: 10px 0;
+  padding: 0 50px;
   width: 100%;
   position: sticky;
   top: 0;
-}
-#nav-bar ul {
-  display: flex;
-  padding: 0;
-}
-#nav-bar li {
-  list-style: none;
 }
 #nav-bar a {
   text-decoration: none;
   margin-right: 50px;
   color: white;
 }
+#nav-bar a:hover {
+  color: #fb5868;
+}
 
 .product-features {
-  width: 70%;
-  margin: 20px auto;
+  margin: 50px auto;
+  width: 60%;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  justify-items: center;
+  align-items: center;
+  gap: 20px;
 }
-@media (min-width: 768px) {
-  .product-features {
-    display: grid;
-    grid-template-columns: 1fr 3fr;
+
+@media (max-width: 768px) {
+  #header {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--main-color);
+    color: white;
+    padding: 0 50px;
+    width: 100%;
+    position: static;
+    top: 0;
+  }
+  #header a {
+    display: block;
+    margin-bottom: 20px;
+    margin-right: 0;
     justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .product-features {
+    grid-template-columns: 1fr;
+    justify-content: center;
+    text-align: center;
+  }
+  img {
+    margin-left: 0;
   }
 }
-.product-features img {
-  display: block;
-  margin: auto;
+
+#how-it-works {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#pricing {
+  width: 60%;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+#pricing h3 {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#email {
+  padding: 10px;
+  border: none;
+  outline-color: #fb5868;
+}
+
+#submit {
+  padding: 7px;
+  border: none;
+  margin-left: 10px;
+  border-radius: 5px;
+  background-color: #fb5868;
+  color: white;
+  cursor: pointer;
+  transition: scale linear 0.3s;
+}
+
+#submit:hover {
+  background-color: #d64d5b;
+  scale: 1.1;
+}
+
+@media (max-width: 768px) {
+  #form {
+    display: flex;
+  }
 }

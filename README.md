@@ -30,6 +30,12 @@
   <img src="img/14.png" width="auto" alt="Technical Documentation">
 </p>
 
+## 17 Landing Page
+
+<p align="center">
+  <img src="img/17.png" width="auto" alt="Landing Page">
+</p>
+
 ## 19 Happy Flappy Penguin
 
 <p align="center">
