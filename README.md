@@ -24,6 +24,12 @@
   <img src="img/10.png" width="auto" alt="Tribute Page">
 </p>
 
+## 14 Technical Documentation
+
+<p align="center">
+  <img src="img/14.png" width="auto" alt="Technical Documentation">
+</p>
+
 ## 19 Happy Flappy Penguin
 
 <p align="center">
