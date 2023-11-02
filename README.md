@@ -12,6 +12,12 @@
   <img src="img/5.png" width="auto" alt="Survey Form">
 </p>
 
+## 7 Photo Gallery
+
+<p align="center">
+  <img src="img/7.png" width="auto" alt="Photo Gallery">
+</p>
+
 ## 19 Happy Flappy Penguin
 
 <p align="center">
