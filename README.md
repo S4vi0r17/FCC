@@ -18,6 +18,12 @@
   <img src="img/7.png" width="auto" alt="Photo Gallery">
 </p>
 
+## 10 Tribute Page
+
+<p align="center">
+  <img src="img/10.png" width="auto" alt="Tribute Page">
+</p>
+
 ## 19 Happy Flappy Penguin
 
 <p align="center">
